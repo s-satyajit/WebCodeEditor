@@ -82,4 +82,4 @@ You can reach me via the following platforms:
 
 - X - [satyajitstwt](https://x.com/satyajitstwt)
 
-- Email - satyajitsamal.workmail@gmail.com
+- Email - [satyajitsamal.workmail@gmail.com](mailto:satyajitsamal.workmail@gmail.com)
