@@ -72,9 +72,14 @@ Contributions are welcome! Follow these steps to contribute:
 
 4. Push to the Branch ```git push origin feature/YourFeature```
 
-5. Open a Pull Request.
+5. Open a Pull Request.web-based code editor for HTML, CSS, and JavaScript, offering live preview, syntax highlighting, and a stunning, responsive UI. Perfect for seamless and intuitive web development! 🚀✨web-based code editor for HTML, CSS, and JavaScript, offering live preview, syntax highlighting, and a stunning, responsive UI. Perfect for seamless and intuitive web development! 🚀✨
 
 ### Contact
-Satyajit Samal - satyajitsamal.workmail@gmail.com
 
-Project Link: https://github.com/s-satyajit/WebCodeEditor
+You can reach me via the following platforms:
+
+- Linkedin - [Satyajit Samal](https://www.linkedin.com/in/satyajitsamal/)
+
+- X - [satyajitstwt](https://x.com/satyajitstwt)
+
+- Email - satyajitsamal.workmail@gmail.com
