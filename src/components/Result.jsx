@@ -5,7 +5,7 @@ import { Box, styled } from "@mui/material";
 const Result = () => {
 
     const Container = styled(Box)`
-        height: 41vh;
+        height: 50vh;
     `
 
     const [src, setSrc] = useState('')
