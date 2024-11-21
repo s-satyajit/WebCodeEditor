@@ -9,13 +9,9 @@ const Container = styled(AppBar)`
 
 const Header = () => {
 
-    const logo = {TerminalIcon};
-
-
     return (
         <Container position="static">
             <Toolbar>
-                {/* <img src={logo} alt="logo" style={{width: 40}} /> */}
                 <TerminalIcon 
                 fontSize="large"
                 style={{alignSelf: 'center'}}

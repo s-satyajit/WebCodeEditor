@@ -7,7 +7,6 @@ import { Box, styled } from "@mui/material";
 const Container = styled(Box)`
     display: flex;
     background-color: #060606;
-    // height: 50vh;
 `
 
 const Code = () => {
