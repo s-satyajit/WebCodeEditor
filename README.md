@@ -20,6 +20,7 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 
 1. Clone the repository to your local machine:
+
    ```bash
    git clone https://github.com/s-satyajit/WebCodeEditor.git
    ```
@@ -37,11 +38,10 @@ Before you begin, ensure you have met the following requirements:
     ```
 
 ### Running the Application
+
 To start the development server, run:
 
-    ```bash
     npm start
-    ```
 
 Open your browser and navigate to ```http://localhost:3000``` to see the app in action.
 
