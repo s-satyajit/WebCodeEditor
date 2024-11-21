@@ -1,37 +1,43 @@
 import React from "react";
-import 'codemirror/lib/codemirror.css'
-import 'codemirror/theme/material.css'
-import 'codemirror/mode/xml/xml'
-import 'codemirror/mode/javascript/javascript'
-import 'codemirror/mode/css/scss'
-import { Controlled as ControlledEditor } from "react-codemirror2";
+import { Box, styled } from "@mui/material";
+import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
 
-function Editor(props) {
+const Heading = styled(Box)`
+    background: #1d1e22;
+    display: flex;
+    padding: 9px 12px;
+`
+const Header = styled(Box)`
+    background: #060606;
+    display: flex;
+    color: #AAAEBC;
+    justify-content: space-between;
+    font-weight: 700;
+`
 
-    const {
-        language,
-        displayName,
-        value,
-        onChange
-    } = props
-
+const Editor = () => {
     return (
-        <div className="editor-container">
-            <div className="editor-title">
-                {displayName}
-                <button>O/C</button>
-            </div>
-            <ControlledEditor
-                onBeforeChange={handleChange}
-                value={value}
-                className="code-mirror-wrapper"
-                options={{
-                    lineWrapping: true,
-                    lint: true,
-                    mode: language
-                }}
-            />
-        </div>
+        <Box>
+            <Header>
+                <Heading>
+                    <Box
+                        component="span"
+                        style={{
+                            background: 'red',
+                            height: '20px',
+                            width: '20px',
+                            display: 'flex',
+                            placeContent: 'center',
+                            borderRadius: 5,
+                            marginRight: 5,
+                            paddingBottom: 2
+                        }}
+                    >/</Box>
+                    HTML
+                </Heading>
+                <CloseFullscreenIcon />
+            </Header>
+        </Box>
     )
 }
 
